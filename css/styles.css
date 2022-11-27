@@ -78,15 +78,15 @@ body {
 
 .top-cloud {
   position: absolute;
-  top: 10%;
-  right: 35%;
+  top: 100px;
+  right: 650px;
   z-index:2
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 35%;
-  top: 30%;
+  left: 650px;
+  top: 470px;
   z-index:1
 }
 
