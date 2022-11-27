@@ -117,8 +117,8 @@ body {
 }
 
 .mountain {
-  position: absolute;
-  top: 233px;
+  position: relative;
+  bottom: 0px;
   left: 30px;
   width: 40%;
 }
