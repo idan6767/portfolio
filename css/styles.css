@@ -118,9 +118,9 @@ body {
 
 .mountain {
   position: relative;
-  bottom: 0px;
-  left: 30px;
-  width: 40%;
+  width: 25%;
+  bottom: 113px;
+  right: 600px;
 }
 
 .contact-me {
