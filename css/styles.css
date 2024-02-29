@@ -258,17 +258,4 @@ margin: 0;
 
 
 
-   @media (max-width: 768px) {
-     /* Adjust styles for smaller screens */
-     .top-container {
-       padding: 30px;
-     }
-
-     .middle-container,
-     .skills,
-     .projects-container,
-     .contact-me {
-       padding: 30px;
-     }
-   }
 
