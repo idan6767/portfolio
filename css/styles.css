@@ -255,3 +255,115 @@ margin: 0;
   max-width: 400px;
   color: #862DBD;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Merriweather Sans', sans-serif;
+   }
+
+   /* Add responsive styles for the top container */
+   .top-container {
+     text-align: center;
+     padding: 50px;
+   }
+
+   .top-cloud,
+   .bottom-cloud,
+   .mountain {
+     width: 100%;
+     height: auto;
+   }
+
+   /* Add responsive styles for the middle container */
+   .middle-container {
+     padding: 50px;
+     text-align: center;
+   }
+
+   .profile-pic {
+     width: 100%;
+     max-width: 300px;
+     height: auto;
+     border-radius: 50%;
+   }
+
+   .intro {
+     font-size: 16px;
+   }
+
+   .skills,
+   .projects-container,
+   .contact-me {
+     padding: 50px;
+   }
+
+   /* Add responsive styles for the projects container */
+   .project-row {
+     text-align: left;
+     margin-bottom: 40px;
+   }
+
+   .screen-shot {
+     width: 100%;
+     height: auto;
+   }
+
+   /* Add responsive styles for the contact me section */
+   .contact-message {
+     font-size: 16px;
+   }
+
+   .btn {
+     display: inline-block;
+     padding: 10px 20px;
+     font-size: 18px;
+     text-align: center;
+     text-decoration: none;
+     background-color: #4CAF50;
+     color: #fff;
+     border-radius: 5px;
+   }
+
+   /* Add responsive styles for the bottom container */
+   .bottom-container {
+     text-align: center;
+     padding: 20px;
+   }
+
+   .footer-link {
+     margin-right: 10px;
+   }
+
+   .rights {
+     margin-top: 10px;
+   }
+
+   @media (max-width: 768px) {
+     /* Adjust styles for smaller screens */
+     .top-container {
+       padding: 30px;
+     }
+
+     .middle-container,
+     .skills,
+     .projects-container,
+     .contact-me {
+       padding: 30px;
+     }
+   }
+
