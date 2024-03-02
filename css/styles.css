@@ -1,6 +1,6 @@
 h1 {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
   color: #862DBD;
   font-size: 562.5%;
   font-family: 'Sacramento', cursive;
@@ -44,20 +44,19 @@ hr {
 }
 
 body {
-  margin: 0px;
+  margin: 0;
   text-align: center;
   font-family: 'Merriweather Sans', sans-serif;
 }
 
-
 .top-bar {
-  height: 0px;
+  height: 0;
   width: 100%;
   background-color: #232323;
   padding-top: 3%;
   top: 0;
   position: fixed;
-  z-index:3
+  z-index: 3;
 }
 
 .menu {
@@ -97,7 +96,8 @@ body {
   height: 10%;
 }
 
-.skill-row {
+.skill-row,
+.project-row {
   display: block;
   width: 50%;
   margin: 50px auto 40px auto;
@@ -105,15 +105,6 @@ body {
   padding-bottom: 2%;
   text-align: left;
   line-height: 2;
-}
-
-.project-row {
-  display: block;
-  width: 50%;
-  margin: 50px auto 40px auto;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  text-align: left;
 }
 
 .left-oriented-logo {
@@ -214,11 +205,10 @@ a:hover {
   text-decoration: none;
 }
 
-
 .rights {
-color: #EDEDED;
-padding-bottom: 30px;
-margin: 0;
+  color: #EDEDED;
+  padding-bottom: 30px;
+  margin: 0;
 }
 
 .profile {
@@ -243,6 +233,9 @@ margin: 0;
 
 .screen-shot {
   width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 40px;
   opacity: 0.8;
   padding-top: 2%;
@@ -256,6 +249,57 @@ margin: 0;
   color: #862DBD;
 }
 
+@media screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens here */
+  .top-container {
+    padding-top: 120px;
+    padding-bottom:10px;
+  }
 
+  .profile-pic {
+    width: 50%;
+  }
 
+  .top-cloud {
+    top: 80px;
+    right: 50px;
+    height: 15%;
+    width: 15%;
+  }
 
+  .bottom-cloud {
+    top: 330px;
+    left: 60px;
+    height: 15%;
+    width: 15%;
+  }
+
+  .mountain {
+    width: 50%;
+  }
+
+  .left-oriented-logo,
+  .right-oriented-logo {
+  width: 30%;
+  }
+
+  .screen-shot {
+  width: 100%;
+  }
+
+  .hash-tags {
+    margin-left: 10%;
+    max-width: 300px;
+    word-spacing: 17px;
+  }
+
+  .skill-row,
+  .project-row {
+    width: 90%;
+  }
+
+  .contact-me {
+    padding-bottom: 20%;
+  }
+
+}
