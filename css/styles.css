@@ -107,9 +107,9 @@ body {
 .projects-container {
   margin-top: 80px;
   margin-bottom: 0px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   padding-top: 2%;
-  height: 1530px;
+  height: auto;
   width: 100%;
   background-color: #EDEDED;
 }
@@ -230,8 +230,7 @@ a:hover {
 
   .projects-container {
     margin-top: 60px;
-    height: 1480px;
-    padding-bottom: 110px;
+    height: auto;
   }
 
   .top-container {
