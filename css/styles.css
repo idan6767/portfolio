@@ -49,27 +49,6 @@ body {
   font-family: 'Merriweather Sans', sans-serif;
 }
 
-.top-bar {
-  height: 0;
-  width: 100%;
-  background-color: #232323;
-  padding-top: 3%;
-  top: 0;
-  position: fixed;
-  z-index: 3;
-}
-
-.menu {
-  position: absolute;
-  left: 20px;
-  top: 10px;
-  width: 2%;
-}
-
-.menu:hover {
-  background-color: #e4f5f1;
-}
-
 .top-container {
   padding-top: 200px;
   height: 390px;
@@ -132,13 +111,6 @@ body {
   height: 1600px;
   width: 100%;
   background-color: #EDEDED;
-}
-
-.mountain {
-  position: relative;
-  width: 25%;
-  bottom: 113px;
-  right: 600px;
 }
 
 .contact-me {
@@ -213,7 +185,7 @@ a:hover {
 
 .profile {
   position: relative;
-  bottom: 120px;
+  bottom: 110px;
 }
 
 .intro {
@@ -260,22 +232,27 @@ a:hover {
     width: 50%;
   }
 
+  .profile {
+    position: relative;
+    bottom: 80px;
+  }
+
+  .intro {
+      width: 85%;
+  }
+
   .top-cloud {
-    top: 80px;
+    top: 20px;
     right: 50px;
     height: 15%;
     width: 15%;
   }
 
   .bottom-cloud {
-    top: 330px;
-    left: 60px;
+    top: 320px;
+    left: 50px;
     height: 15%;
     width: 15%;
-  }
-
-  .mountain {
-    width: 50%;
   }
 
   .left-oriented-logo,
