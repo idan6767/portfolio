@@ -43,6 +43,33 @@ hr {
   margin-bottom: 2%;
 }
 
+.sub-skill-container {
+    padding-top: 1%;
+    padding-right:160px;
+    display: flex;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+
+.sub-skill {
+    width: auto;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #862DBD;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.sub-skill-text {
+    margin: 0;
+}
+
+
 body {
   margin: 0;
   text-align: center;
@@ -223,6 +250,7 @@ a:hover {
   color: #862DBD;
 }
 
+
 @media screen and (max-width: 768px) {
   hr {
     width: 10%;
@@ -293,4 +321,10 @@ a:hover {
   .contact-message {
     width: 70%;
   }
+
+  .sub-skill-container {
+      padding-right:60px;
+  }
+
+
 }
