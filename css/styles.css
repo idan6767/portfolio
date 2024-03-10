@@ -77,8 +77,8 @@ body {
 }
 
 .top-container {
-  padding-top: 200px;
-  height: 390px;
+  padding-top: 150px;
+  height: 500px;
   width: 100%;
   background-color: #FCCB06;
 }
@@ -96,7 +96,7 @@ body {
 .bottom-cloud {
   position: absolute;
   left: 650px;
-  top: 470px;
+  top: 350px;
   z-index:1
   width: 20%;
   height: 10%;
@@ -250,10 +250,42 @@ a:hover {
   color: #862DBD;
 }
 
+#testimonials {
+  text-align: center;
+  background-color: #862DBD;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding:  5% 5% 5%;
+}
+
+.certificate {
+  width: 22%;
+}
+
+
+
+
+
 
 @media screen and (max-width: 768px) {
   hr {
     width: 10%;
+  }
+
+  .carousel-item {
+    padding:  10% 10% 15%;
+  }
+
+  .certificate {
+    width: 70%;
   }
 
   .projects-container {
