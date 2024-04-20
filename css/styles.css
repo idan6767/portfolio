@@ -25,12 +25,14 @@ h2 {
 h3 {
   font-family: 'Montserrat', sans-serif;
   color: #862DBD;
+  font-weight: bold;
 }
 
 p {
   color: #232323;
   word-spacing: 4px;
   line-height: 2;
+  margin: 0px;
 }
 
 hr {
@@ -44,12 +46,11 @@ hr {
 }
 
 .sub-skill-container {
-    padding-top: 1%;
-    padding-right:160px;
+    padding-top: 2%;
     display: flex;
     gap: 10px;
     max-width: 400px;
-    margin: 0 auto;
+    margin: 0px auto; /* Add 'px' after 30 for the left and right margins */
     flex-wrap: wrap;
 }
 
@@ -113,10 +114,18 @@ body {
   line-height: 2;
 }
 
+.skill-row {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
 .left-oriented-logo {
   width: 19%;
   float: left;
   margin-right: 15px;
+  opacity: 80%;
 }
 
 .right-oriented-logo {
@@ -242,6 +251,17 @@ a:hover {
   padding-top: 2%;
 }
 
+
+.small-screen-shot {
+  display: block;
+  width: 40%;
+  margin-left: 100px;
+  margin-right: auto;
+  border-radius: 40px;
+  opacity: 0.5;
+  padding-top: 2%;
+}
+
 .hash-tags {
   margin-left: 26%;
   font-weight: bold;
@@ -330,6 +350,10 @@ a:hover {
   width: 100%;
   }
 
+  .small-screen-shot {
+  width: 50%;
+  }
+
   .hash-tags {
     margin-left: 10%;
     max-width: 300px;
@@ -352,5 +376,12 @@ a:hover {
 
   .sub-skill-container {
       padding-right:60px;
+      padding-top: 1%;
+      padding-right:190px;
+      display: flex;
+      gap: 10px;
+      max-width: 500px;
+      margin: 0 auto;
+      flex-wrap: wrap;
   }
 }
