@@ -392,7 +392,6 @@ a:hover {
 
 
 
-
 /* מיכל הקרוסלה */
 .certificate-slider-container {
     overflow: hidden;
@@ -427,7 +426,7 @@ a:hover {
     }
 }
 
-/* שכפול של התמונות */
+/* שכפול התמונות */
 .certificate-slider-track::after {
     content: "";
     display: flex;
