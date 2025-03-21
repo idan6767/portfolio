@@ -358,7 +358,7 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   margin-left: 0;
-  max-width: 800px; 
+  max-width: 500px; 
   word-spacing: 1px;
 }
 
@@ -379,7 +379,7 @@ a:hover {
   .sub-skill-container {
       padding-right:20px;
       padding-top: 1%;
-      padding-right:190px;
+      padding-right:100px;
       display: flex;
       gap: 10px;
       max-width: 700px;
