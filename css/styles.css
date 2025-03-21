@@ -405,6 +405,7 @@ a:hover {
     display: flex;
     width: max-content;
     animation: certificate-scroll-left 10s linear infinite;
+    transform: translateX(100%); /* מתחיל מהגבול הימני */
 }
 
 /* תמונות הקרוסלה */
@@ -417,9 +418,9 @@ a:hover {
 /* אנימציה להזזה ימינה-שמאלה */
 @keyframes certificate-scroll-left {
     from {
-        transform: translateX(0);
+        transform: translateX(100%); /* מתחיל בדיוק מהגבול הימני */
     }
     to {
-        transform: translateX(-50%);
+        transform: translateX(-100%); /* זז שמאלה עד שהסט הבא מחליף */
     }
 }
