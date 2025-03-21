@@ -405,12 +405,14 @@ a:hover {
 .certificate-slider-track {
     display: flex;
     width: max-content;
+    position: relative;
+    right: -100%; /* מתחיל מחוץ למסך מצד ימין */
     animation: certificate-scroll-left 10s linear infinite;
 }
 
 /* תמונות הקרוסלה */
 .certificate-slide {
-    width: 200px; /* אפשר לשנות את הרוחב */
+    width: 200px;
     height: auto;
     margin: 0 10px;
 }
@@ -418,9 +420,9 @@ a:hover {
 /* אנימציה להזזה ימינה-שמאלה */
 @keyframes certificate-scroll-left {
     from {
-        transform: translateX(0);
+        transform: translateX(100%);
     }
     to {
-        transform: translateX(-50%);
+        transform: translateX(-100%);
     }
 }
