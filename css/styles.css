@@ -387,37 +387,40 @@ a:hover {
 }
 
 
-  /* מיכל הקרוסלה */
-  .certificate-slider-container {
+
+
+
+
+/* מיכל הקרוסלה */
+.certificate-slider-container {
     overflow: hidden;
     white-space: nowrap;
     position: relative;
     width: 100%;
     background: #f9f9f9;
     padding: 10px 0;
-  }
+}
 
-  /* פס התנועה של הקרוסלה */
-  .certificate-slider-track {
+/* פס התנועה של הקרוסלה */
+.certificate-slider-track {
     display: flex;
     width: max-content;
     animation: certificate-scroll-left 10s linear infinite;
-  }
+}
 
-  /* תמונות הקרוסלה */
-  .certificate-slide {
+/* תמונות הקרוסלה */
+.certificate-slide {
     width: 200px; /* אפשר לשנות את הרוחב */
     height: auto;
     margin: 0 10px;
-  }
+}
 
-  /* אנימציה להזזה ימינה-שמאלה */
-  @keyframes certificate-scroll-left {
+/* אנימציה להזזה ימינה-שמאלה */
+@keyframes certificate-scroll-left {
     from {
-      transform: translateX(0);
+        transform: translateX(0);
     }
     to {
-      transform: translateX(-50%);
+        transform: translateX(-50%);
     }
-  }
-</style>
+}
