@@ -263,10 +263,10 @@ a:hover {
 }
 
 .hash-tags {
-  margin-left: 20%;
+  margin-left: 10%;
   font-weight: bold;
   word-spacing: 20px;
-  max-width: 400px;
+  max-width: 500px;
   color: #862DBD;
 }
 
