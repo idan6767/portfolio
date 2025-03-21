@@ -409,7 +409,7 @@ a:hover {
 
 /* תמונות הקרוסלה */
 .certificate-slide {
-    width: 200px; /* אפשר לשנות את הרוחב */
+    width: 100px; /* אפשר לשנות את הרוחב */
     height: auto;
     margin: 0 10px;
 }
