@@ -396,7 +396,7 @@ a:hover {
     white-space: nowrap;
     position: relative;
     width: 100%;
-    background: #f9f9f9;
+    background: transparent;
     padding: 10px 0;
 }
 
