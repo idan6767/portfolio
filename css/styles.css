@@ -356,8 +356,8 @@ a:hover {
 
   .hash-tags {
     margin-left: 30%;
-    max-width: 500px;
-    word-spacing: 12px;
+    max-width: 800px;
+    word-spacing: 5px;
   }
 
   .skill-row,
