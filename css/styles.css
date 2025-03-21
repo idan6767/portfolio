@@ -187,6 +187,10 @@ a:hover {
   color: #EDEDED;
 }
 
+.footer-link { 
+    color: black;
+}
+
 .btn {
   background: white;
   background-image: -webkit-linear-gradient(top, #3498db, #862DBD);
