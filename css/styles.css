@@ -420,6 +420,6 @@ a:hover {
         transform: translateX(0);
     }
     to {
-        transform: translateX(-100%); /* תזוזה עד שהסט הראשון יוצא */
+        transform: translateX(-50%); /* זז עד שמגיעות למחצית הסט של התמונות */
     }
 }
