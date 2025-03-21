@@ -390,7 +390,6 @@ a:hover {
 
 
 
-
 /* מיכל הקרוסלה */
 .certificate-slider-container {
     overflow: hidden;
@@ -405,8 +404,6 @@ a:hover {
 .certificate-slider-track {
     display: flex;
     width: max-content;
-    position: relative;
-    right: -100%; /* מתחיל מחוץ למסך מצד ימין */
     animation: certificate-scroll-left 10s linear infinite;
 }
 
@@ -420,9 +417,9 @@ a:hover {
 /* אנימציה להזזה ימינה-שמאלה */
 @keyframes certificate-scroll-left {
     from {
-        transform: translateX(100%);
+        transform: translateX(0);
     }
     to {
-        transform: translateX(-100%);
+        transform: translateX(-50%);
     }
 }
