@@ -390,6 +390,9 @@ a:hover {
 
 
 
+
+
+
 /* מיכל הקרוסלה */
 .certificate-slider-container {
     overflow: hidden;
@@ -405,7 +408,6 @@ a:hover {
     display: flex;
     width: max-content;
     animation: certificate-scroll-left 10s linear infinite;
-    transform: translateX(100%); /* מתחיל מהגבול הימני */
 }
 
 /* תמונות הקרוסלה */
@@ -418,9 +420,19 @@ a:hover {
 /* אנימציה להזזה ימינה-שמאלה */
 @keyframes certificate-scroll-left {
     from {
-        transform: translateX(100%); /* מתחיל בדיוק מהגבול הימני */
+        transform: translateX(0);
     }
     to {
-        transform: translateX(-100%); /* זז שמאלה עד שהסט הבא מחליף */
+        transform: translateX(-100%); /* זז שמאלה עד שהסט מחליף */
     }
+}
+
+/* שכפול של התמונות */
+.certificate-slider-track::after {
+    content: "";
+    display: flex;
+    width: max-content;
+    animation: certificate-scroll-left 10s linear infinite;
+    margin-left: 20px; /* מרווח בין התמונות */
+    transform: translateX(100%);
 }
