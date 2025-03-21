@@ -411,7 +411,7 @@ a:hover {
 
 /* תמונות הקרוסלה */
 .certificate-slide {
-    width: 200px;
+    width: 200px; /* אפשר לשנות את הרוחב */
     height: auto;
     margin: 0 10px;
 }
@@ -422,16 +422,6 @@ a:hover {
         transform: translateX(0);
     }
     to {
-        transform: translateX(-100%); /* זז שמאלה עד שהסט מחליף */
+        transform: translateX(-100%); /* תזוזה עד שהסט הראשון יוצא */
     }
-}
-
-/* שכפול התמונות */
-.certificate-slider-track::after {
-    content: "";
-    display: flex;
-    width: max-content;
-    animation: certificate-scroll-left 10s linear infinite;
-    margin-left: 20px; /* מרווח בין התמונות */
-    transform: translateX(100%);
 }
