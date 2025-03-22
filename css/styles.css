@@ -178,10 +178,8 @@ html, body {
   position: relative;
   background-color: #FCCB06;
   padding-top: 6%;
+  padding-bottom: 6%;
   width: 100%;
-  display: flex;
-  justify-content: center; /* מרכז אופקית */
-  align-items: center; /* מרכז אנכית */
 }
 
 a {
