@@ -183,6 +183,10 @@ a {
   line-height: 20px;
 }
 
+a:hover, a:active {
+  text-decoration: none; /* מבטל קו תחתון גם במעבר עכבר ובחיצה */
+}
+
 
 .footer-link {
   color: black;
