@@ -183,10 +183,6 @@ a {
   line-height: 20px;
 }
 
-a:hover {
-  color: #EDEDED;
-}
-
 .footer-link { 
     color: black;
 }
@@ -216,6 +212,7 @@ a:hover {
   background-image: -o-linear-gradient(top, #862DBD, #3498db);
   background-image: linear-gradient(to bottom, #862DBD, #3498db);
   text-decoration: none;
+  color: inherit; /* משמר את צבע הטקסט המקורי */
 }
 
 .rights {
