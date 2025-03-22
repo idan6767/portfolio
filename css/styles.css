@@ -429,3 +429,19 @@ a:hover {
         transform: translateX(-50%); /* זז עד שמגיעות למחצית הסט של התמונות */
     }
 }
+
+
+.footer-table {
+    margin: 0 auto; /* למרכז את הטבלה */
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.footer-table td {
+    padding: 5px 15px;
+}
+
+.footer-icon {
+    font-size: 18px;
+    color: #333; /* אפשר לשנות צבע */
+}
