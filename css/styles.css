@@ -168,14 +168,19 @@ body {
   color: black;
 }
 
+html, body {
+  height: 100%; /* מבטיח שהדף יתפוס את כל הגובה */
+  margin: 0; /* מסיר מרווחים נוספים */
+}
+
 .bottom-container {
   position: relative;
   background-color: #FCCB06;
   padding-top: 6%;
   width: 100%;
   height: 30%;
-  margin: 0;
-  bottom: 0;
+  margin: 0; /* מסיר כל מרווח חיצוני */
+  bottom: 0; /* מוודא שהקונטיינר יהיה צמוד לתחתית */
 }
 
 a {
