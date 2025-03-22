@@ -186,12 +186,17 @@ a {
 
 .footer-link {
   color: black;
-  text-decoration: none; /* אם רוצים להוריד קו תחתון */
+  text-decoration: none; /* מבטל קו תחתון */
 }
 
 .footer-link:hover {
   color: black; /* שומר על צבע הטקסט השחור במעבר עכבר */
-  text-decoration: underline; /* אם רוצים להוסיף קו תחתון במעבר עכבר */
+  text-decoration: none; /* מבטל את קו התחתון במעבר עכבר */
+}
+
+.footer-link:active {
+  color: black; /* שומר על הצבע השחור כאשר הקישור נלחץ */
+  text-decoration: none; /* מבטל את קו התחתון גם כאשר הקישור נלחץ */
 }
 
 .btn {
