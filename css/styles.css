@@ -179,9 +179,10 @@ html, body {
   background-color: #FCCB06;
   padding-top: 6%;
   width: 100%;
-  height: auto; /* גובה אוטומטי שיתאם לתוכן */
-  margin: 0; /* מסיר כל מרווח חיצוני */
-  bottom: 0; /* מוודא שהקונטיינר יהיה צמוד לתחתית */
+  display: flex;
+  justify-content: center; /* מרכז אופקית */
+  align-items: center; /* מרכז אנכית */
+  height: 100vh; /* גובה מלא של הדף */
 }
 
 a {
