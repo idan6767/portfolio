@@ -182,7 +182,6 @@ html, body {
   display: flex;
   justify-content: center; /* מרכז אופקית */
   align-items: center; /* מרכז אנכית */
-  height: 100vh; /* גובה מלא של הדף */
 }
 
 a {
